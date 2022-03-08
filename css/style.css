@@ -20,10 +20,7 @@ nav{
   position: fixed;
   right: 0;
   top: 15px;
-}
-
-nav ul{
- 
+  z-index: 999;
 }
 
 nav ul li{
@@ -39,6 +36,24 @@ ul li a{
   font-size: 50px;
 }
 
-section{
+
+.shoes{
+  position:relative;
   height: 100vh;
+}
+
+.shoes-img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.shoes-text{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  text-transform: uppercase;
+  text-align: center;
+  color: yellow;
 }
